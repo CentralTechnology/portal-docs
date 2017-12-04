@@ -1,25 +1,26 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "react-static-starter",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "dependencies": {
-    "gatsby": "^1.9.127",
-    "gatsby-link": "^1.6.30",
-    "gatsby-plugin-react-helmet": "^1.0.8"
-  },
-  "keywords": [
-    "gatsby"
-  ],
+  "main": "index.js",
   "license": "MIT",
-  "main": "n/a",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-static start",
+    "build": "react-static build",
+    "serve": "serve dist -p 3000"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "babel-plugin-react-css-modules": "^3.3.2",
+    "bootstrap": "^4.0.0-beta.2",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-router": "^4.2.0",
+    "react-static": "^4.3.4",
+    "reactstrap": "^5.0.0-alpha.4",
+    "styled-components": "2.2.0"
   },
   "devDependencies": {
-    "prettier": "^1.8.2"
+    "eslint-config-react-tools": "1.x.x",
+    "serve": "^6.1.0"
   }
 }
