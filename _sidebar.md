@@ -4,6 +4,8 @@
 
 - License Monitoring System
   - [Overview](lms/)
+  - [Configure Credentials](lms/agentcredentials)
   - [Custom Device Authentication](lms/customdeviceauth)
   - [Automatic Deployment](lms/automaticdeployment)
   - [Manual Deployment](lms/manualdeployment)
+  - [Troubleshooting](lms/troubleshooting)

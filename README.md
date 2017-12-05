@@ -1,3 +1,3 @@
-# Headline
+# Documentation
 
-> An awesome project.
+ Provides documentation for the [Portal](portal/README) and [License Monitoring System](lms/README).

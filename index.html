@@ -7,12 +7,17 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <style>
+    nav.app-nav li ul {
+      min-width: 100px;
+    }
+  </style>
 </head>
 <body>
-  <div id="app"></div>
+  <div id="app">Loading ...</div>
   <script>
     window.$docsify = {
-      name: '',
+      name: 'Central Technology Ltd',
       repo: '',
       themeColor: '#002E5D',
       loadSidebar: true,
@@ -20,7 +25,21 @@
         paths: 'auto',
         placeholder: 'Type to search',
         noData: 'No Results!',
-      }
+      },
+      formatUpdated: '{DD}/{MM}/{YY} {HH}:{mm}',
+      plugins: [
+        function(hook, vm) {
+          hook.beforeEach(function (html) {
+            var url = 'https://github.com/CentralTechnology/portal-docs/blob/master/' + vm.route.file
+            var editHtml = '[:memo: Edit Document](' + url + ')\n'
+            return editHtml
+              + html
+              + '\n----\n'
+              + 'Last modified {docsify-updated} '
+              + editHtml
+          })
+        }
+      ]
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
