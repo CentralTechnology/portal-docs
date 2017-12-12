@@ -1,11 +1,12 @@
 - Portal
   - [Overview](portal/)
-  - [New Schedule](portal/newschedule)
+  - [License Monitoring System](portal/lms)
+  - [Tenants](portal/tenants)
 
 - License Monitoring System
   - [Overview](lms/)
-  - [Configure Credentials](lms/agentcredentials)
-  - [Custom Device Authentication](lms/customdeviceauth)
-  - [Automatic Deployment](lms/automaticdeployment)
-  - [Manual Deployment](lms/manualdeployment)
+  - [Deployment](lms/deployment)
+  - [Configuration](lms/configuration)
+  - [Usage](lms/usage)
+  - [Tools](lms/tools)
   - [Troubleshooting](lms/troubleshooting)

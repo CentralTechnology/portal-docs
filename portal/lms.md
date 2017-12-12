@@ -1,11 +1,6 @@
-# Custom Device Authentication
+# License Monitoring System
 
-This tutorial will demonstrate how to create a the credentials for a **Custom Device**, and how to enter these credentials on the agent itself.
-
-> 
-- Before you begin, make sure the LMS agent has been deployed either [automatically](lms/automaticdeployment) or [manually](lms/manualdeployment).
-- If you cannot see the relevant sections in the Portal then it will be related to your permissions. Please speak to your line manager about gaining access.
-
+## Manual Device Authentication
 
 ### Create a new Device
 
@@ -22,9 +17,9 @@ This tutorial will demonstrate how to create a the credentials for a **Custom De
 
 4. Once you have completed the form, select save. The modal will close and the table will be refreshed with the new device. The device is created straight away so you can begin making api requests using the Device Id.
 
-Please visit this [page](lms/agentcredentals) to learn how to configure the agent with the new credentials.
+> Need help entering the credentials on the agent? see [here](lms/configuration?id=manual-device-authentication).
 
-[create-custom-device]: /lms/create-custom-device.jpg "Create Custom Device Form"
+
 ### Update a device
 
 1. Navigate to the Custom Devices section which can be found under the ** Administration ** menu. [Administration > Custom Devices](https://portal.ct.co.uk/Administration/CustomDevices).
@@ -33,7 +28,7 @@ Please visit this [page](lms/agentcredentals) to learn how to configure the agen
 > **Note** The **Device Id** field is ***readonly***. If you would like to make a change to this value then delete and create a new device.
 
 ![alt text][update-custom-device]
-[update-custom-device]: /lms/update-custom-device.jpg "Update Custom Device Form"
+
 ### Disable a device
 
 1. Navigate to the Custom Devices section which can be found under the ** Administration ** menu. [Administration > Custom Devices](https://portal.ct.co.uk/Administration/CustomDevices).
@@ -45,3 +40,6 @@ Please visit this [page](lms/agentcredentals) to learn how to configure the agen
 1. Navigate to the Custom Devices section which can be found under the ** Administration ** menu. [Administration > Custom Devices](https://portal.ct.co.uk/Administration/CustomDevices).
 2. Under the Actions menu against the device you would like to make changes to, select **Delete**.
 3. You will then be prompted to confirm your action, select **Yes**.
+
+[create-custom-device]: /portal/_images/create-custom-device.jpg "Create Custom Device Form"
+[update-custom-device]: /portal/_images/update-custom-device.jpg "Update Custom Device Form"

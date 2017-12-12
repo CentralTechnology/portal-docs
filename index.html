@@ -17,10 +17,14 @@
   <div id="app">Loading ...</div>
   <script>
     window.$docsify = {
-      name: 'Central Technology Ltd',
-      repo: '',
-      themeColor: '#002E5D',
+      auto2top: true,
       loadSidebar: true,
+      loadNavbar: true,
+      mergeNavbar: true,
+      maxLevel: 4,
+      subMaxLevel: 2,
+      name: 'Central Technology Ltd',
+      themeColor: '#002E5D',
       search: {
         paths: 'auto',
         placeholder: 'Type to search',
@@ -44,5 +48,6 @@
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-powershell.min.js"></script>
 </body>
 </html>

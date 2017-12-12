@@ -1,4 +1,8 @@
-# New Schedule
+# Tenants
+
+## Tasks
+
+### Create 
 This tutorial will demonstrate how to create a new scheduled task within the Portal.
 
 1. Navigate to the tenants section which can be found under the **Administration** menu. [Administration > Tenants](https://portal.ct.co.uk/Administration/Tenants).
@@ -7,7 +11,8 @@ This tutorial will demonstrate how to create a new scheduled task within the Por
 
 3. This will show you all the currently schedule tasks for the selected tenant. To add a new task, select **Add New** from above the table. This will open a modal form.
 4. The modal form is a wizard which will guide you through creating a new Task. The first windows shows all the available contracts for a Tenant.
-> All scheduled tasks must be against an active contract.
+
+  !> All scheduled tasks must be against an active contract.
 
   ![alt text][contract-selection]
 
@@ -15,11 +20,11 @@ This tutorial will demonstrate how to create a new scheduled task within the Por
 
    ![alt text][schedule-selection]
 
- > Example:
-  - Contract Start Date: **01/12/2015**
-  - Schedule: **Quarterly**
-  
-  This task would be executed **every December, March, June, September**.
+  > Example:
+    - Contract Start Date: **01/12/2015**
+    - Schedule: **Quarterly**
+
+  > This task would be executed **every December, March, June, September**.
 
 6. The last step is to configure the information that will be passed across to Autotask. You have the option to use one of the pre-defined templates (top right) or to simply fill this in yourself.
 
@@ -36,7 +41,7 @@ Not all the configured options available in Autotask are available in this Task/
 - Ticket Type: **Service Request**
 - Work Type: **Service Management** 
 
-[tenants-action-menu]: portal/tenants-action-menu.jpg "Tenants action menu"
-[contract-selection]: portal/create-task-contract-selection.jpg "Create new task - Contract selection"
-[schedule-selection]: portal/create-task-schedule-selection.jpg "Create new task - Schedule selection"
-[autotask-information]: portal/create-task-autotask-information-selection.jpg "Create new task - Autotask information"
+[tenants-action-menu]: portal/_images/tenants-action-menu.jpg "Tenants action menu"
+[contract-selection]: portal/_images/create-task-contract-selection.jpg "Create new task - Contract selection"
+[schedule-selection]: portal/_images/create-task-schedule-selection.jpg "Create new task - Schedule selection"
+[autotask-information]: portal/_images/create-task-autotask-information-selection.jpg "Create new task - Autotask information"

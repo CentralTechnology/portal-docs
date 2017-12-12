@@ -1,4 +1,4 @@
 # Documentation
 
- Provides documentation for the [Portal](portal/README) and [License Monitoring System](lms/README).
- 
+- View **Portal** [docs](/portal/).
+- View **License Monitoring System** [docs](/lms/).
