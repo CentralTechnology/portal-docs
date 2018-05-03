@@ -25,7 +25,7 @@ Here is a quick tutorial on how to add servers to the correct group.
 
 ## Manual
 
-> If a clients device is not in CentraStage, then please visit this [page](lms/customdeviceauth) for how to manually setup authentication.
+> If a clients device is not in CentraStage, then please visit this [page](portal/lms?id=manual-device-authentication) for how to manually setup authentication.
 
 This tutorial will demonstrate how to manually deploy the LMS agent through CentraStage.
 
