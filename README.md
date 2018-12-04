@@ -1,4 +1,3 @@
 # Documentation
 
- Provides documentation for the [Portal](portal/README) and [License Monitoring System](lms/README).
- 
+Provides documentation for the [License Monitoring System Agent](lms/README).
